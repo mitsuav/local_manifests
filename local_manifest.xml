@@ -11,7 +11,10 @@
   <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="merlinx" revision="lineage-21" />
   <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="merlinx" revision="lineage-21" />
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="mitsuav" revision="14" />
-  
+
+        <!-- lineage sepolicy -->
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" revision="lineage-21" />
+        
         <!-- sepolicy -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-21" />
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-21" />
