@@ -12,7 +12,7 @@
   <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="mitsuav" revision="14" />
 
         <!-- lineage sepolicy -->
-  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" revision="lineage-21" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" revision="lineage-21.0" />
         
         <!-- sepolicy -->
   <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-21" />
