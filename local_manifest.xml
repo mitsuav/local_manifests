@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <!-- Remote -->
-        <remote name="mitsuav" fetch="https://github.com/mitsuav" clone-depth="1" />
+        <remote name="mtmt" fetch="https://github.com/mt6768-dev" clone-depth="1" />
         <remote name="los" fetch="https://github.com/LineageOS" clone-depth="1" />
+        <remote name="jbub" fetch="https://github.com/Jbub5" clone-depth="1" />
 
         <!-- Trees -->
-  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="mitsuav" revision="lineage-21" />
-  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="mitsuav" revision="lineage-21-qpr3" />
-  <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="mitsuav" revision="lineage-21" />
-  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="mitsuav" revision="lineage-21-qpr3" />
-  <project path="kernel/xiaomi/mt6768" name="KucingPoi" remote="mitsuav" revision="stable" />
+  <project path="device/xiaomi/merlinx" name="android_device_xiaomi_merlinx" remote="mtmt" revision="lineage-20" />
+  <project path="device/xiaomi/mt6768-common" name="android_device_xiaomi_mt6768-common" remote="mtmt" revision="lineage-20" />
+  <project path="vendor/xiaomi/merlinx" name="proprietary_vendor_xiaomi_merlinx" remote="mtmt" revision="lineage-20" />
+  <project path="vendor/xiaomi/mt6768-common" name="proprietary_vendor_xiaomi_mt6768-common" remote="mtmt" revision="lineage-20" />
+  <project path="kernel/xiaomi/mt6768" name="android_kernel_xiaomi_mt6768" remote="jbub" revision="kernel-tree" />
 
         <!-- lineage sepolicy -->
   <!-- <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los" revision="lineage-21.0" /> -->
         
         <!-- sepolicy -->
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-21" />
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-21" />
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" revision="lineage-20" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" revision="lineage-20" />
 </manifest>
